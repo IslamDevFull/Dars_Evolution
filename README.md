@@ -1,0 +1,2 @@
+# Dars_Evolution
+Assalomu Aleykum Bu dastur yaratilishdan maqsad : Dasturlashni o'rganmoqchi bo'lgan yosh dasturchilar ushbu dastur orqali oson va tez va eng muxumi tushunib o'rganishga juda kata imkoniyat beradi
