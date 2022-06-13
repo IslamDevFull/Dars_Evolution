@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.sidebar{
+    height: 2000px;
+    width: 10%;
+    float: left;
+    background-color: pink;
+    text-align: center;
+    position: fixed;
+}
+
+.sidebar a{
+    display: block;
+    margin-top: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    text-decoration: underline solid;
+}
+
+.progres{
+    margin-left: 50px;
+}
+
+.progres progress{
+    padding: 20px;
+    width: 90%;
+}
+
+.fa{
+    animation: anime 2s 3 linear;
+    color: yellow;  
+    margin-left: 10px;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    transform: scale(3,3);
+    text-shadow: 0.1px 0.1px 3px black, -0.1px -0.1px 3px black;
+}
+
+@keyframes anime{
+    from{
+        transform: scale(3,3);
+        text-shadow: 0px 0px 0px red, -0px -0px 0px red;
+    }
+    to{
+        transform: scale(3.5,3.5);
+        text-shadow: 2px 2px 5px red, -2px -2px 5px red;
+    }
+}
+
+.content{
+    height: 3000px;
+    width: 100%;
+    float: left;
+    background-color: powderblue;
+    padding-left: 250px;
+}
+
+.content .h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.sin{
+    font-size: 30px;
+    margin-top: 50px;
+    color: brown;
+}
+
+.col_1{
+    width: 100%; 
+    outline: 3px solid blue; 
+    height: 300px;
+    margin-bottom: 300px;
+}
+
+.col_2{
+    width: 100%; 
+    height: 400px; 
+    margin-top:100px; 
+    outline: 3px solid red;
+}
+
+h2 code,.h1{
+    color: blue;
+}
+
+.cod{
+    width: 500px;
+    float: left;
+}
+
+.ekran{
+    width: 500px;
+    float: left;
+    margin-left: 200px;
+}
+
+.smsXato,.smsTugri{
+    background-color: darkred;
+    width: 17%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    animation: xato 1s 3 linear;
+    visibility: hidden;
+    position: relative;
+}
+
+.smsTugri{
+    background-color: greenyellow;
+    color: black;
+}
+
+@keyframes xato{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+        box-shadow: 0px 0px 5px 5px red;
+    }
+}
+
+input{
+    color: rgb(60,130,200);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#tugri,#tugri1,#tugri2{
+    display: none;
+}
+
+.tekshir{
+    background-image: url(3HeL.gif);
+    background-size: 400%;
+    padding: 8px;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.tekshir:hover{
+    color: green;
+}
+
+.davom{
+    display: block;
+    margin-top: 100px;
+    margin-left: 1000px;
+    width: 7%;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    background-color: pink;
+    font-weight: bold;
+    clear: both;
+}
+
+.davom:hover{
+    background-color: rgb(250, 152, 168);
+}
+
