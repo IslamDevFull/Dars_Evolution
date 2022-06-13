@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="E:\dasturlash\DarsEvolution\font-awesome-4.7.0\css\font-awesome.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css">
     <title>Dasturlash</title>
 </head>
 <body>
     <div class="sidebar">
         <h1>HTML</h1>
         <a style="background-color: greenyellow; text-decoration: underline;" href="">Mavzu 1</a>
-        <a href="mavzu2\index.html">Mavzu 2</a>
+        <a href="p2.html">Mavzu 2</a>
         <a href="b3.html">Mavzu 3</a>
         <a href="">Mavzu 4</a>
         <a href="">Mavzu 5</a>
@@ -32,7 +32,7 @@
             <code>h1</code>
             <code>></code>
         </h1>
-        <h1 style="margin-left: 30px; text-align: center;">Mavzu : Sarlavha uchun ishalatiladigan kodlar</h1>
+        <h1 style="margin-left: 30px; text-align: center;"><span  class="sin">Mavzu :</span> Sarlavha uchun ishalatiladigan kodlar</h1>
         <h2 class="sin">Sintaksis :
             <code><</code>
             <code>h1</code>
@@ -47,26 +47,31 @@
         <div class="col_1">
             <div class="cod">
                 <h2 style="text-align: center;">Kod</h2>
-                <iframe src="h1Cod.html" frameborder="1" width="500" height="200"></iframe>
+                <iframe src="h1_Cod.html" frameborder="1" width="500" height="200"></iframe>
             </div>
             <div class="ekran">
                 <h2 style="text-align: center;">Natija</h2>
-                <iframe src="h1Ekran.html" frameborder="0" width="500" height="200"></iframe>
+                <iframe src="h1_Ekran.html" frameborder="0" width="500" height="200"></iframe>
             </div>
         </div>
+        <h1 class="vz"><span  class="sin">Vazifa :</span> Sarlavha kodini kiriting</h1>
         <div id="smsXato" class="smsXato">
             <h1>Xato</h1>
         </div>
         <div id="smsTugri" class="smsTugri">
             <h1>To'g'ri</h1>
         </div>
-        <input id="xato" type="text" style="width: 65px;" maxlength="4">
-        <input id="xato1" type="text" style="width: 129px; color: black;" maxlength="10">
-        <input id="xato2" type="text" style="width: 72px;" maxlength="5">
-        <button class="tekshir" onclick="xato()">Tekshirish</button>
-        <input id="tugri" type="text" value="<h1>" style="width: 65px;" maxlength="4">
-        <input id="tugri1" type="text"value="Sarlavha 1" style="width: 129px; color: black;" maxlength="10">
-        <input id="tugri2" type="text"value="</h1>" style="width: 72px;" maxlength="5">
+        <div class="mashq">
+            <input id="xato" type="text" style="width: 65px;" maxlength="4">
+            <input id="xato1" type="text" style="width: 129px; color: black;" maxlength="10">
+            <input id="xato2" type="text" style="width: 72px;" maxlength="5">
+            <button class="tekshir" onclick="xato()">Tekshirish</button>
+            <button id="qayta" class="qayta" onclick="none()">Qayta yozish</button>
+            <input id="tugri" type="text" value="<h1>" style="width: 65px; margin-left: 60px;" maxlength="4">
+            <input id="tugri1" type="text"value="Sarlavha 1" style="width: 129px; color: black;" maxlength="10">
+            <input id="tugri2" type="text"value="</h1>" style="width: 72px;" maxlength="5">
+        </div>
+        <div id="qadam_2">
         <h1 class="h1">
             <code><</code>
             <code>h1</code>
@@ -90,15 +95,16 @@
         <div class="col_2">
             <div class="cod">
                 <h2 style="text-align: center;">Kod</h2>
-                <iframe src="h6Cod.html" frameborder="1" width="500" height="300"></iframe>
+                <iframe src="h6_Cod.html" frameborder="1" width="500" height="300"></iframe>
             </div>
             <div class="ekran">
                 <h2 style="text-align: center;">Natija</h2>
-                <iframe src="h6Ekran.html" frameborder="0" width="500" height="300"></iframe>
+                <iframe src="h6_Ekran.html" frameborder="0" width="500" height="300"></iframe>
             </div>
         </div>
         <a class="davom" href="mavzu2\index.html">Davom etish</a>
         </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
