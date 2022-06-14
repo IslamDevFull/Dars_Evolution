@@ -1,19 +1,3 @@
-/*function xato(){
-    let xato = document.getElementById("xato").value;
-    let xato1 = document.getElementById("xato1").value;
-    let xato2 = document.getElementById("xato2").value;
-    let tugri = document.getElementById("tugri").value;
-    let tugri1 = document.getElementById("tugri1").value;
-    let tugri2 = document.getElementById("tugri2").value;
-    if(xato != tugri & xato1 != tugri1){
-        document.getElementById("smsXato").style.display = "block";
-        document.getElementById("qayta").style.visibility = "visible";
-    }
-    if(xato == tugri & xato1 == tugri1){
-        document.getElementById("smsTugri").style.display = "block";
-        document.getElementById("qadam_2").style.display = "block";
-    }
-}*/
 function xato(){
     let xato = document.getElementById("xato").value;
     let xato1 = document.getElementById("xato1").value;
@@ -21,11 +5,13 @@ function xato(){
     let tugri = document.getElementById("tugri").value;
     let tugri1 = document.getElementById("tugri1").value;
     let tugri2 = document.getElementById("tugri2").value;
-    if(xato != tugri & xato1 != tugri1){
+    let xatolar = xato + xato1 + xato2;
+    let tugrilar = tugri + tugri1 + tugri2;
+    if(xatolar != tugrilar){
         document.getElementById("smsXato").style.display = "block";
         document.getElementById("qayta").style.visibility = "visible";
     }
-    if(xato == tugri & xato1 == tugri1){
+    if(xatolar == tugrilar){
         document.getElementById("smsTugri").style.display = "block";
         document.getElementById("qadam_2").style.display = "block";
     }
