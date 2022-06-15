@@ -147,7 +147,7 @@ input{
     color: green;
 }
 #qadam_2{
-    display: none;
+    /*display: none;*/
     animation: qadam 2s 2.5s forwards;
     opacity: 0;
 }
@@ -160,6 +160,19 @@ input{
         transform: scale(1);
         opacity: 1;
     }
+}
+.center{
+    text-align: center;
+    margin: auto;
+}
+.card{
+    border: 2px solid red;
+    width: 49%;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
 }
 /* keyingi mavzuga o'tish knopkasi  */
 .davom{
