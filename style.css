@@ -50,7 +50,6 @@
 }
 /*  Dars content  */
 .content{
-    height: 6000px;
     width: 100%;
     float: left;
     background-color: powderblue;
@@ -68,6 +67,10 @@
     font-size: 30px;
     margin-top: 20px;
     color: brown;
+}
+.red{
+    color: red;
+    font-weight: bold;
 }
 .vz{
     margin-bottom: 50px;
@@ -173,6 +176,12 @@ input{
 .none{
     display: none;
 }
+.opa{
+    opacity: 0;
+}
+.bottom{
+    margin-bottom: 200px;
+}
 @keyframes transform{
     from{
         transform: scale(0);
@@ -184,18 +193,17 @@ input{
     }
 }
 .BTN{
-    background-color: black;
+    background-color: #444;
     color: greenyellow;
     font: bold;
     font-size: 20px;
     padding: 5px;
-    border: 5px solid red;
 }
 .BTN:hover{
-    border: 5px solid rgb(248, 71, 71);
+    background-color: black;
 }
 .BTN:active{
-    border: 5px solid red;
+    background-color: #444;
 }
 /* keyingi mavzuga o'tish knopkasi  */
 .davom{
