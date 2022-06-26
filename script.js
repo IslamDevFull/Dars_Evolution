@@ -94,3 +94,19 @@ function bXato(){
 function bNone() {
     document.getElementById('smsXato').style.display = "none";
 }
+function brXato(){
+    let brXato = document.getElementById("brXato").value;
+    let brXato1 = document.getElementById("brXato1").value;
+    let brTugri = document.getElementById("brTugri").value;
+    let brTugri1 = document.getElementById("brTugri1").value;
+    let brXatolar = brXato + brXato1;
+    let brTugrilar = brTugri + brTugri1;
+    if(brXatolar != brTugrilar){
+        document.getElementById("smsXato").style.display = "block";
+        document.getElementById("brQayta").style.visibility = "visible";
+    }
+    if(brXatolar == brTugrilar){
+        document.getElementById("smsTugri").style.display = "block";
+        document.getElementById("br4").style.display = "block";
+    }
+}
