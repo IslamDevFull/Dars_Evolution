@@ -89,6 +89,7 @@ function bXato(){
     if(bXatolar == bTugrilar){
         document.getElementById("smsTugri").style.display = "block";
         document.getElementById("b3").style.display = "block";
+        document.getElementById("b3_1").style.display = "block";
     }
 }
 function bNone() {
@@ -108,5 +109,39 @@ function brXato(){
     if(brXatolar == brTugrilar){
         document.getElementById("smsTugri").style.display = "block";
         document.getElementById("br4").style.display = "block";
+    }
+}
+function iXato(){
+    let iXato = document.getElementById("iXato").value;
+    let iXato1 = document.getElementById("iXato1").value;
+    let iXato2 = document.getElementById("iXato2").value;
+    let iTugri = document.getElementById("iTugri").value;
+    let iTugri1 = document.getElementById("iTugri1").value;
+    let iTugri2 = document.getElementById("iTugri2").value;
+    let iXatolar = iXato + iXato1 + iXato2;
+    let iTugrilar = iTugri + iTugri1 + iTugri2;
+    if(iXatolar != iTugrilar){
+        document.getElementById("smsXato").style.display = "block";
+        document.getElementById("iQayta").style.visibility = "visible";
+    }
+    if(iXatolar == iTugrilar){
+        document.getElementById("smsTugri").style.display = "block";
+        document.getElementById("i5").style.display = "block";
+    }
+}
+function markXato(){
+    let markXato = document.getElementById("markXato").value;
+    let markXato1 = document.getElementById("markXato1").value;
+    let markTugri = document.getElementById("markTugri").value;
+    let markTugri1 = document.getElementById("markTugri1").value;
+    let markXatolar = markXato + markXato1;
+    let markTugrilar = markTugri + markTugri1;
+    if(markXatolar != markTugrilar){
+        document.getElementById("smsXato").style.display = "block";
+        document.getElementById("markQayta").style.visibility = "visible";
+    }
+    if(markXatolar == markTugrilar){
+        document.getElementById("smsTugri").style.display = "block";
+        document.getElementById("mark6").style.display = "block";
     }
 }

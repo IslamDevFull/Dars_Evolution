@@ -63,15 +63,6 @@
     margin-top: 50px;
     clear: both;
 }
-.sin{
-    font-size: 30px;
-    margin-top: 20px;
-    color: brown;
-}
-.red{
-    color: red;
-    font-weight: bold;
-}
 .vz{
     margin-bottom: 50px;
 }
@@ -159,9 +150,6 @@ input{
     animation: transform 2s 2.5s forwards;
     opacity: 0;
 }
-.center{
-    text-align: center;
-}
 .card{
     width: 49%;
     text-align: center;
@@ -176,6 +164,22 @@ input{
     display: none;
     animation: transform 1s linear forwards;
 }
+.sin{
+    font-size: 30px;
+    margin-top: 20px;
+    color: brown;
+}
+.red{
+    color: red;
+    font-weight: bold;
+}
+.yellow{
+    color: yellow;
+    font: bold;
+}
+.blue{
+    color: rgb(60,130,200);
+}
 .none{
     display: none;
 }
@@ -184,6 +188,9 @@ input{
 }
 .bottom{
     margin-bottom: 200px;
+}
+.center{
+    text-align: center;
 }
 @keyframes transform{
     from{
