@@ -25,14 +25,15 @@
     <div class="content" style="height: 5500px;">
         <div class="progres">
             <progress max="10" value="0"></progress>
-            <i class="fa fa-star" aria-hidden="true"> 0</i>
+            <i class="fa fa-star" aria-hidden="true" style="animation: ani;"> 0</i>
         </div>
-        <h1 class="h1"><span style="font-size: 50px;" class="sin">Mavzu : </span>
+        <h1 class="h1"><span style="font-size: 50px;" class="sin">Ushbu Mavzuda : </span>
             <code><</code>
             <code>h1</code>
             <code>></code>
+            <span class="black">Kodini O'rganamiz</span>
         </h1>
-        <h1><span class="sin">Vazifasi :</span> Sarlavha uchun ishalatiladigan kodlar</h1>
+        <h1><span class="sin">h1 kodni Vazifasi :</span> Sarlavha uchun ishalatiladigan kodlar</h1>
         <h1><span class="sin">Turi :</span> Juftlik</h1>
         <h2 class="sin">Sintaksis :
             <code><</code>
@@ -55,7 +56,7 @@
                 <iframe src="h1_Ekran.html" frameborder="0" width="500" height="200"></iframe>
             </div>
         </div>
-        <h1 class="vz"><span  class="sin">Vazifa :</span> Sarlavha kodi bilan <span class="red">Sarlavha 1</span> degan so'zni kiriting</h1>
+        <h1 class="vz"><span  class="sin">Vazifa :</span> Sarlavha kodini yozing</h1>
         <div id="smsXato" class="smsXato">
             <h1>Xato</h1>
         </div>
@@ -64,13 +65,12 @@
         </div>
         <div class="mashq">
             <input id="xato" type="text" style="width: 65px;" maxlength="4">
-            <input id="xato1" type="text" style="width: 129px; color: black;" maxlength="10">
-            <input id="xato2" type="text" style="width: 72px;" maxlength="5">
+            <input type="text" style="width: 129px; color: black;">
+            <input id="xato1" type="text" style="width: 72px;" maxlength="5">
             <button class="tekshir" onclick="xato()">Tekshirish</button>
             <button id="qayta" class="qayta" onclick="none()">Qayta yozish</button>
             <input id="tugri" type="text" value="<h1>" style="width: 65px; margin-left: 60px;" maxlength="4">
-            <input id="tugri1" type="text"value="Sarlavha 1" style="width: 129px; color: black;" maxlength="10">
-            <input id="tugri2" type="text"value="</h1>" style="width: 72px;" maxlength="5">
+            <input id="tugri1" type="text"value="</h1>" style="width: 72px;" maxlength="5">
         </div>
         <div id="qadam_2">
             <div class="center" >
@@ -85,11 +85,15 @@
                 <div class="card">
                     <button class="BTN" onclick="btn()">Qadam 1</button>
                     <div class="disNone" id="dis">
-                        <h1>
-                            <span style="font-size: 30px;" class="sin">Qadam 1 : </span>
-                            Redaktorni oching
-                        </h1>
-                        <img src="vs.png" style="width: 100%;" alt="qadam 1">
+                        <a class="texDecor" href="vs.png">    
+                            <h1>
+                                <span style="font-size: 30px;" class="sin">Qadam 1 : </span>
+                                Redaktorni oching
+                            </h1>
+                        </a>
+                        <a href="vs.png">
+                            <img src="vs.png" style="width: 100%;" alt="qadam 1">
+                        </a>
                     </div>
                 </div>
                 <div class="card">

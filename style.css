@@ -83,7 +83,7 @@
     margin-top: 100px;
     clear: both;
 }
-h2 code,.h1{
+code,.h1{
     color: blue;
 }
 .cod{
@@ -167,6 +167,7 @@ input{
     display: none;
     animation: transform 1s linear forwards;
 }
+/*********************************************************************************************************************************************************************************/ 
 .sin{
     font-size: 30px;
     margin-top: 20px;
@@ -182,6 +183,11 @@ input{
 }
 .blue{
     color: rgb(60,130,200);
+    font-weight: bold;
+}
+.black{
+    color: black;
+    font-weight: bold;
 }
 .none{
     display: none;
@@ -195,6 +201,11 @@ input{
 .center{
     text-align: center;
 }
+.texDecor{
+    text-decoration: none;
+    color: white;
+}
+/*********************************************************************************************************************************************************************************/ 
 @keyframes transform{
     from{
         transform: scale(0);
