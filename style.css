@@ -7,7 +7,7 @@
     height: 2000px;
     width: 10%;
     float: left;
-    background-color: #999;
+    background-color: #b9b9b9;
     text-align: center;
     position: fixed;
 }
@@ -148,11 +148,6 @@ input{
 .tekshir:hover,.qayta:hover{
     color: green;
 }
-#qadam_2{
-    display: none;
-    animation: transform 2s 2.5s forwards;
-    opacity: 0;
-}
 .card{
     width: 49%;
     text-align: center;
@@ -204,6 +199,9 @@ input{
 .texDecor{
     text-decoration: none;
     color: white;
+}
+.trans{
+    animation: transform 2s 2.5s forwards;
 }
 /*********************************************************************************************************************************************************************************/ 
 @keyframes transform{
