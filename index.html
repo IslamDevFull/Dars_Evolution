@@ -22,7 +22,7 @@
         <a href="">Mavzu 9</a>
         <a href="">Mavzu 10</a>
     </div>
-    <div class="content" style="height: 5500px;">
+    <div id="bodi" class="content" style="height: 5500px;">
         <div class="progres">
             <progress max="10" value="0"></progress>
             <i class="fa fa-star" aria-hidden="true" style="animation: ani;"> 0</i>
@@ -84,17 +84,16 @@
                 </h1>
                 <div class="card">
                     <button class="BTN" onclick="btn()">Qadam 1</button>
-                    <div class="disNone" id="dis">
-                        <a class="texDecor" href="h1_img.html">    
-                            <h1>
-                                <span style="font-size: 30px;" class="sin">Qadam 1 : </span>
+                    <div onclick="imgOn()" class="disNone" id="dis">  
+                        <h1>
+                            <span style="font-size: 30px;" class="sin">Qadam 1 : </span>
                                 Redaktorni oching
-                            </h1>
-                        </a>
-                        <a href="h1_img.html">
-                            <img src="vs.png" style="width: 100%;" alt="qadam 1">
-                        </a>
+                        </h1>
+                        <img src="vs.png" class="width" alt="qadam 1">
                     </div>
+                </div>
+                <div id="images" class="images none" onclick="imgOff()">
+                    <img src="vs.png" style="width: 100%;" alt="qadam 1">
                 </div>
                 <div class="card">
                     <button class="BTN none" id="btn1" onclick="btn1()">Qadam 2</button>

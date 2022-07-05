@@ -51,7 +51,16 @@ function btn7(){
     document.getElementById('dis7').style.display = 'block';
     document.getElementById('davom').style.display = 'block';
 }
+function imgOn(){
+    document.getElementById("images").style.display = "block";
+    document.getElementById("bodi").style.backgroundColor = "rgba(0,0,0,0.5)";
+}
+function imgOff(){
+    document.getElementById("images").style.display = "none";
+    document.getElementById("bodi").style.backgroundColor = "#e9e9e9";
+    document.getElementById("bodi").style.cursor = "pointer";
 
+}
 function pXato(){
     let pXato = document.getElementById("pXato").value;
     let pXato1 = document.getElementById("pXato1").value;
