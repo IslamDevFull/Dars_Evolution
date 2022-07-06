@@ -161,7 +161,8 @@ input{
     padding: 10px 0;
     display: none;
     animation: transform 1s linear forwards;
-    cursor: pointer;
+    cursor: zoom-in;
+    cursor: zoom-inS;
 }
 /*********************************************************************************************************************************************************************************/ 
 .sin{
@@ -255,4 +256,5 @@ input{
     left: 0;
     display: none;
     z-index: 1;
+    cursor: zoom-out;
 }

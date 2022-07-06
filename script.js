@@ -58,7 +58,7 @@ function imgOn(){
 function imgOff(){
     document.getElementById("images").style.display = "none";
     document.getElementById("bodi").style.backgroundColor = "#e9e9e9";
-    document.getElementById("bodi").style.cursor = "pointer";
+    document.getElementById("bodi").style.cursor = "zoom-out";
 
 }
 function pXato(){
@@ -141,4 +141,56 @@ function markXato(){
         document.getElementById("smsTugri").style.display = "block";
         document.getElementById("mark6").style.display = "block";
     }
+}
+function sXato(){
+    let sXato = document.getElementById("sXato").value;
+    let sXato1 = document.getElementById("sXato1").value;
+    let sTugri = document.getElementById("sTugri").value;
+    let sTugri1 = document.getElementById("sTugri1").value;
+    let sXatolar = sXato + sXato1;
+    let sTugrilar = sTugri + sTugri1;
+    if(sXatolar != sTugrilar){
+        document.getElementById("smsXato").style.display = "block";
+        document.getElementById("sQayta").style.visibility = "visible";
+    }
+    if(sXatolar == sTugrilar){
+        document.getElementById("smsTugri").style.display = "block";
+        document.getElementById("s7").style.display = "block";
+    }
+}
+function uXato(){
+    let uXato = document.getElementById("uXato").value;
+    let uXato1 = document.getElementById("uXato1").value;
+    let uTugri = document.getElementById("uTugri").value;
+    let uTugri1 = document.getElementById("uTugri1").value;
+    let uXatolar = uXato + uXato1;
+    let uTugrilar = uTugri + uTugri1;
+    if(uXatolar != uTugrilar){
+        document.getElementById("smsXato").style.display = "block";
+        document.getElementById("uQayta").style.visibility = "visible";
+    }
+    if(uXatolar == uTugrilar){
+        document.getElementById("smsTugri").style.display = "block";
+        document.getElementById("u8").style.display = "block";
+    }
+}
+function smallXato(){
+    let smallXato = document.getElementById("smallXato").value;
+    let smallXato1 = document.getElementById("smallXato1").value;
+    let smallTugri = document.getElementById("smallTugri").value;
+    let smallTugri1 = document.getElementById("smallTugri1").value;
+    let smallXatolar = smallXato + smallXato1;
+    let smallTugrilar = smallTugri + smallTugri1;
+    if(smallXatolar != smallTugrilar){
+        document.getElementById("smsXato").style.display = "block";
+        document.getElementById("smallQayta").style.visibility = "visible";
+    }
+    if(smallXatolar == smallTugrilar){
+        document.getElementById("smsTugri").style.display = "block";
+        document.getElementById("small9").style.display = "block";
+        document.getElementById("vaz_2").style.display = "block";
+    }
+}
+function smallCol_2(){
+    document.getElementById("small9_1").style.display = "block";
 }
