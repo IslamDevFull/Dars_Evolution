@@ -64,12 +64,10 @@ function imgOff(){
 function pXato(){
     let pXato = document.getElementById("pXato").value;
     let pXato1 = document.getElementById("pXato1").value;
-    let pXato2 = document.getElementById("pXato2").value;
     let pTugri = document.getElementById("pTugri").value;
     let pTugri1 = document.getElementById("pTugri1").value;
-    let pTugri2 = document.getElementById("pTugri2").value;
-    let pXatolar = pXato + pXato1 + pXato2;
-    let pTugrilar = pTugri + pTugri1 + pTugri2;
+    let pXatolar = pXato + pXato1;
+    let pTugrilar = pTugri + pTugri1;
     if(pXatolar != pTugrilar){
         document.getElementById("smsXato").style.display = "block";
         document.getElementById("pQayta").style.visibility = "visible";
@@ -79,16 +77,13 @@ function pXato(){
         document.getElementById("p2").style.display = "block";
     }
 }
-function pNone() {
-    document.getElementById('smsXato').style.display = "none";
-}
 function bXato(){
     let bXato = document.getElementById("bXato").value;
-    let bXato2 = document.getElementById("bXato2").value;
+    let bXato1 = document.getElementById("bXato1").value;
     let bTugri = document.getElementById("bTugri").value;
-    let bTugri2 = document.getElementById("bTugri2").value;
-    let bXatolar = bXato + bXato2;
-    let bTugrilar = bTugri + bTugri2;
+    let bTugri1 = document.getElementById("bTugri1").value;
+    let bXatolar = bXato + bXato1;
+    let bTugrilar = bTugri + bTugri1;
     if(bXatolar != bTugrilar){
         document.getElementById("smsXato").style.display = "block";
         document.getElementById("bQayta").style.visibility = "visible";
@@ -98,9 +93,6 @@ function bXato(){
         document.getElementById("b3").style.display = "block";
         document.getElementById("b3_1").style.display = "block";
     }
-}
-function bNone() {
-    document.getElementById('smsXato').style.display = "none";
 }
 function brXato(){
     let brXato = document.getElementById("brXato").value;
@@ -121,12 +113,10 @@ function brXato(){
 function iXato(){
     let iXato = document.getElementById("iXato").value;
     let iXato1 = document.getElementById("iXato1").value;
-    let iXato2 = document.getElementById("iXato2").value;
     let iTugri = document.getElementById("iTugri").value;
     let iTugri1 = document.getElementById("iTugri1").value;
-    let iTugri2 = document.getElementById("iTugri2").value;
-    let iXatolar = iXato + iXato1 + iXato2;
-    let iTugrilar = iTugri + iTugri1 + iTugri2;
+    let iXatolar = iXato + iXato1;
+    let iTugrilar = iTugri + iTugri1;
     if(iXatolar != iTugrilar){
         document.getElementById("smsXato").style.display = "block";
         document.getElementById("iQayta").style.visibility = "visible";
