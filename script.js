@@ -194,3 +194,20 @@ function smallXato(){
 function smallCol_2(){
     document.getElementById("small9_1").style.display = "block";
 }
+function preXato(){
+    let preXato = document.getElementById("preXato").value;
+    let preXato1 = document.getElementById("preXato1").value;
+    let preTugri = document.getElementById("preTugri").value;
+    let preTugri1 = document.getElementById("preTugri1").value;
+    let preXatolar = preXato + preXato1;
+    let preTugrilar = preTugri + preTugri1;
+    if(preXatolar != preTugrilar){
+        document.getElementById("smsXato").style.display = "block";
+        document.getElementById("preQayta").style.visibility = "visible";
+    }
+    if(preXatolar == preTugrilar){
+        document.getElementById("smsTugri").style.display = "block";
+        document.getElementById("pre9").style.display = "block";
+        document.getElementById("vaz_2").style.display = "block";
+    }
+}
