@@ -211,3 +211,72 @@ function preXato(){
         document.getElementById("vaz_2").style.display = "block";
     }
 }
+function aXato(){
+    let aXato = document.getElementById("aXato").value;
+    let aXato1 = document.getElementById("aXato1").value;
+    let aXato2 = document.getElementById("aXato2").value;
+    let aXato3 = document.getElementById("aXato3").value;
+    let aTugri = document.getElementById("aTugri").value;
+    let aTugri1 = document.getElementById("aTugri1").value;
+    let aTugri2 = document.getElementById("aTugri2").value;
+    let aTugri3 = document.getElementById("aTugri3").value;
+    let aXatolar = aXato + aXato1 + aXato2 + aXato3;
+    let aTugrilar = aTugri + aTugri1 + aTugri2 + aTugri3;
+    if(aXatolar != aTugrilar){
+        document.getElementById("smsXato").style.display = "block";
+        document.getElementById("aQayta").style.visibility = "visible";
+    }
+    if(aXatolar == aTugrilar){
+        document.getElementById("smsTugri").style.display = "block";
+        document.getElementById("a11").style.display = "block";
+        document.getElementById("vaz_2").style.display = "block";
+    }
+}
+function imgXato(){
+    let imgXato = document.getElementById("imgXato").value;
+    let imgXato1 = document.getElementById("imgXato1").value;
+    let imgXato2 = document.getElementById("imgXato2").value;
+    let imgTugri = document.getElementById("imgTugri").value;
+    let imgTugri1 = document.getElementById("imgTugri1").value;
+    let imgTugri2 = document.getElementById("imgTugri2").value;
+    let imgXatolar = imgXato + imgXato1 + imgXato2;
+    let imgTugrilar = imgTugri + imgTugri1 + imgTugri2;
+    if(imgXatolar != imgTugrilar){
+        document.getElementById("smsXato").style.display = "block";
+        document.getElementById("imgQayta").style.visibility = "visible";
+    }
+    if(imgXatolar == imgTugrilar){
+        document.getElementById("smsTugri").style.display = "block";
+        document.getElementById("img12").style.display = "block";
+        document.getElementById("vaz_2").style.display = "block";
+    }
+}
+function ulXato(){
+    let ulXato = document.getElementById("ulXato").value;
+    let ulXato1 = document.getElementById("ulXato1").value;
+    let ulXato2 = document.getElementById("ulXato2").value;
+    let ulXato3 = document.getElementById("ulXato3").value;
+    let ulXato4 = document.getElementById("ulXato4").value;
+    let ulXato5 = document.getElementById("ulXato5").value;
+    let ulXato6 = document.getElementById("ulXato6").value;
+    let ulXato7 = document.getElementById("ulXato7").value;
+    let ulTugri = document.getElementById("ulTugri").value;
+    let ulTugri1 = document.getElementById("ulTugri1").value;
+    let ulTugri2 = document.getElementById("ulTugri2").value;
+    let ulTugri3 = document.getElementById("ulTugri3").value;
+    let ulTugri4 = document.getElementById("ulTugri4").value;
+    let ulTugri5 = document.getElementById("ulTugri5").value;
+    let ulTugri6 = document.getElementById("ulTugri6").value;
+    let ulTugri7 = document.getElementById("ulTugri7").value;
+    let ulXatolar = ulXato + ulXato1 + ulXato2 + ulXato3 + ulXato4 + ulXato5 + ulXato6 + ulXato7;
+    let ulTugrilar = ulTugri + ulTugri1 + ulTugri2 + ulTugri3 + ulTugri4 + ulTugri5 + ulTugri6 + ulTugri7;
+    if(ulXatolar != ulTugrilar){
+        document.getElementById("smsXato").style.display = "block";
+        document.getElementById("ulQayta").style.visibility = "visible";
+    }
+    if(ulXatolar == ulTugrilar){
+        document.getElementById("smsTugri").style.display = "block";
+        document.getElementById("ul14").style.display = "block";
+        document.getElementById("vaz_2").style.display = "block";
+    }
+}
