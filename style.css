@@ -29,7 +29,7 @@
     padding: 20px;
     width: 90%;
 }
-.fa{
+.fa-star{
     animation: anime 4s linear;
     color: yellow;  
     margin-left: 10px;
@@ -133,6 +133,7 @@ input{
     color: rgb(53,140,214);
     font-size: 25px;
     font-weight: bold;
+    padding: 4px 0 ;
 }
 #tugri,#tugri1,#tugri2{
     display: none;
@@ -168,7 +169,6 @@ input{
     display: none;
     animation: transform 1s linear forwards;
     cursor: zoom-in;
-    cursor: zoom-inS;
 }
 /*********************************************************************************************************************************************************************************/ 
 .sin{
@@ -192,14 +192,17 @@ input{
     color: black;
     font-weight: bold;
 }
+.bottom{
+    margin-bottom: 200px;
+}
+.border{
+    border: 2px solid red;
+}
 .none{
     display: none;
 }
 .opa{
     opacity: 0;
-}
-.bottom{
-    margin-bottom: 200px;
 }
 .center{
     text-align: center;
@@ -214,14 +217,16 @@ input{
 .width{
     width: 100%;
 }
-.left{
-    margin-left: -10px;
-}
 .left_1{
     margin-left: 250px;
 }
-.left_2{
-    margin-left: -8px;
+.saytIsm{
+    position: absolute; 
+    margin-top: -33px; 
+    background-color: white; 
+    margin-left: 1px; padding: 7px; 
+    border-radius: 0 10px 0 0;
+    border-bottom: 1px solid;
 }
 /*********************************************************************************************************************************************************************************/ 
 @keyframes transform{
@@ -264,13 +269,17 @@ input{
 .davom:hover{
     background-color: rgb(250, 152, 168);
 }
+/* **************************************************************************************************************** */
 .images{
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 100%;
     position: fixed;
     top: 500px;
     left: 0;
-    display: none;
     z-index: 1;
+    display: none;
     cursor: zoom-out;
+    animation: transform 1s;
 }
