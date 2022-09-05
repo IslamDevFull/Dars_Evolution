@@ -89,7 +89,6 @@ function imgOff(){
     document.getElementById("images_5").style.display = "none";
     document.getElementById("images_6").style.display = "none";
     document.getElementById("bodi").style.backgroundColor = "#e9e9e9";
-    document.getElementById("bodi").style.cursor = "zoom-out";
 }
 /********************************* Mavzu_2 ******************************************************/
 function pXato(){
@@ -121,7 +120,7 @@ function izohXato(){
     }
     if(izohXatolar == izohTugrilar){
         document.getElementById("smsIzohTugri").style.display = "block";
-        document.getElementById("p2").style.display = "block";
+        document.getElementById("p_vazifa").style.display = "block";
     }
 }
 function izohNone() {
@@ -137,6 +136,7 @@ function docXato(){
     }
     if(docXato == docTugri){
         document.getElementById("smsDocTugri").style.display = "block";
+        document.getElementById("html").style.display = "block";
     }
 }
 function docNone() {
@@ -155,7 +155,7 @@ function htmlXato(){
     }
     if(htmlXatolar == htmlTugrilar){
         document.getElementById("smsHtmlTugri").style.display = "block";
-        document.getElementById("p2").style.display = "block";
+        document.getElementById("head").style.display = "block";
     }
 }
 function htmlNone() {
@@ -174,7 +174,7 @@ function headXato(){
     }
     if(headXatolar == headTugrilar){
         document.getElementById("smsHeadTugri").style.display = "block";
-        document.getElementById("p2").style.display = "block";
+        document.getElementById("title").style.display = "block";
     }
 }
 function headNone() {
@@ -193,7 +193,7 @@ function titleXato(){
     }
     if(titleXatolar == titleTugrilar){
         document.getElementById("smsTitleTugri").style.display = "block";
-        document.getElementById("p2").style.display = "block";
+        document.getElementById("body").style.display = "block";
     }
 }
 function titleNone() {
@@ -212,7 +212,6 @@ function bodyXato(){
     }
     if(bodyXatolar == bodyTugrilar){
         document.getElementById("smsBodyTugri").style.display = "block";
-        document.getElementById("p2").style.display = "block";
     }
 }
 function bodyNone() {
@@ -228,6 +227,7 @@ function brXato(){
     }
     if(brXato == brTugri){
         document.getElementById("smsBrTugri").style.display = "block";
+        document.getElementById("hr").style.display = "block";
     }
 }
 function brNone() {
@@ -242,6 +242,7 @@ function hrXato(){
     }
     if(hrXato == hrTugri){
         document.getElementById("smsHrTugri").style.display = "block";
+        document.getElementById("br4").style.display = "block";
     }
 }
 function hrNone() {
