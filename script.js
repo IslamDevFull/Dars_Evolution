@@ -212,10 +212,44 @@ function bodyXato(){
     }
     if(bodyXatolar == bodyTugrilar){
         document.getElementById("smsBodyTugri").style.display = "block";
+        document.getElementById("mashq").style.display = "block";
     }
 }
 function bodyNone() {
     document.getElementById('smsBodyXato').style.display = "none";
+}
+function vazifaXato(){
+    let docVazifaXato = document.getElementById("docVazifaXato").value;
+    let htmlVazifaXato = document.getElementById("htmlVazifaXato").value;
+    let headVazifaXato = document.getElementById("headVazifaXato").value;
+    let titleVazifaXato = document.getElementById("titleVazifaXato").value;
+    let titleVazifaXato1 = document.getElementById("titleVazifaXato1").value;
+    let headVazifaXato1 = document.getElementById("headVazifaXato1").value;
+    let bodyVazifaXato = document.getElementById("bodyVazifaXato").value;
+    let bodyVazifaXato1 = document.getElementById("bodyVazifaXato1").value;
+    let htmlVazifaXato1 = document.getElementById("htmlVazifaXato1").value;
+    let docVazifaTugri = document.getElementById("docVazifaTugri").value;
+    let htmlVazifaTugri = document.getElementById("htmlVazifaTugri").value;
+    let headVazifaTugri = document.getElementById("headVazifaTugri").value;
+    let titleVazifaTugri = document.getElementById("titleVazifaTugri").value;
+    let titleVazifaTugri1 = document.getElementById("titleVazifaTugri1").value;
+    let headVazifaTugri1 = document.getElementById("headVazifaTugri1").value;
+    let bodyVazifaTugri = document.getElementById("bodyVazifaTugri").value;
+    let bodyVazifaTugri1 = document.getElementById("bodyVazifaTugri1").value;
+    let htmlVazifaTugri1 = document.getElementById("htmlVazifaTugri1").value;
+    let vazifaXatolar = docVazifaXato + htmlVazifaXato + headVazifaXato + titleVazifaXato + titleVazifaXato1 + headVazifaXato1 + bodyVazifaXato + bodyVazifaXato1 + htmlVazifaXato1;
+    let vazifaTugrilar = docVazifaTugri + htmlVazifaTugri + headVazifaTugri + titleVazifaTugri + titleVazifaTugri1 + headVazifaTugri1 + bodyVazifaTugri + bodyVazifaTugri1 + htmlVazifaTugri1;
+    if(vazifaXatolar != vazifaTugrilar){
+        document.getElementById("smsVazifaXato").style.display = "block";
+        document.getElementById("vazifaQayta").style.visibility = "visible";
+    }
+    if(vazifaXatolar == vazifaTugrilar){
+        document.getElementById("smsVazifaTugri").style.display = "block";
+        document.getElementById("next").style.display = "block";
+    }
+}
+function vazifaNone() {
+    document.getElementById('smsVazifaXato').style.display = "none";
 }
 /********************************* Mavzu_4 ******************************************************/
 function brXato(){
@@ -262,6 +296,7 @@ function bXato(){
     }
     if(bXatolar == bTugrilar){
         document.getElementById("smsBTugri").style.display = "block";
+        document.getElementById("strong").style.display = "block";
     }
 }
 function bNone() {
@@ -280,6 +315,7 @@ function strongXato(){
     }
     if(strongXatolar == strongTugrilar){
         document.getElementById("smsStrongTugri").style.display = "block";
+        document.getElementById("ich").style.display = "block";
     }
 }
 function strongNone() {
@@ -302,6 +338,7 @@ function ichXato(){
     }
     if(ichXatolar == ichTugrilar){
         document.getElementById("smsIchTugri").style.display = "block";
+        document.getElementById("bVazifa").style.display = "block";
     }
 }
 function ichNone() {

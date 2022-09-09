@@ -200,6 +200,14 @@ input{
 .center{
     text-align: center;
 }
+.centerFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
 .texDecor{
     text-decoration: none;
     color: white;
@@ -210,15 +218,24 @@ input{
 .width{
     width: 100%;
 }
+
+.left-1{
+    margin-left: 20px;
+}
+.left-2{
+    margin-left: 40px;
+}
 .left_1{
     margin-left: 250px;
 }
-.saytIsm{
-    position: absolute; 
-    margin-top: -33px; 
-    background-color: white; 
-    margin-left: 1px; padding: 7px; 
-    border-radius: 0 10px 0 0;
+.left_2{
+    margin-left: 400px;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
 }
 /*********************************************************************************************************************************************************************************/ 
 @keyframes transform{
@@ -274,4 +291,11 @@ input{
     display: none;
     cursor: zoom-out;
     animation: transform 1s;
+}
+.saytIsm{
+    position: absolute; 
+    margin-top: -33px; 
+    background-color: white; 
+    margin-left: 1px; padding: 7px; 
+    border-radius: 0 10px 0 0;
 }
