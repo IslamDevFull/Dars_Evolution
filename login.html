@@ -40,17 +40,25 @@
             color: #000;
             transition: 2s;
         }
-        p{font-size: 30px;color: #FFF;}
-        h2{font-size: 30px; color: #FFF;}
+        p{font-size: 40px;color: #FFF;}
+        h2{font-size: 40px; color: #FFF;}
         input{
-            padding: 10px;
+            padding: 20px;
             width: 30%;
             font-size: 20px;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            text-align: center;
+            background: none;
+            box-shadow: inset 8px 8px 8px #cbced1,
+                        inset -8px -8px 8px rgb(195, 198, 196)
         }
         button{
             width: 30%;
             padding: 10px;
             font-size: 20px;
+            border-radius: 30px;
         }
         div:hover button{
             color: #fff;
@@ -61,17 +69,16 @@
 </head>
 <body>
     <div>
-        <br><br>
-        <h1>Dars Evalution</h1>
         <br>
+        <h1>Dars Evalution</h1>
         <p>Tizimga Kirish</p>
         <br>
         <form action="">
             <h2>Familiyangizni kiriting</h2>
-            <input type="text">
-            <br><br><br>
+            <input type="text" placeholder="Familiya">
+            <br><br>
             <h2>Ismingizni kiriting</h2>
-            <input type="text">
+            <input type="text" placeholder="Isim">
             <br><br><br><br>
             <button>Kirish</button>
         </form>
