@@ -344,7 +344,7 @@ function ichXato(){
 function ichNone() {
     document.getElementById('smsIchXato').style.display = "none";
 }
-/********************************* Mavzu_5 ******************************************************/
+/********************************* Mavzu_6 ******************************************************/
 function iXato(){
     let iXato = document.getElementById("iXato").value;
     let iXato1 = document.getElementById("iXato1").value;
@@ -353,13 +353,33 @@ function iXato(){
     let iXatolar = iXato + iXato1;
     let iTugrilar = iTugri + iTugri1;
     if(iXatolar != iTugrilar){
-        document.getElementById("smsXato").style.display = "block";
+        document.getElementById("smsIXato").style.display = "block";
         document.getElementById("iQayta").style.visibility = "visible";
     }
     if(iXatolar == iTugrilar){
-        document.getElementById("smsTugri").style.display = "block";
-        document.getElementById("i5").style.display = "block";
+        document.getElementById("smsITugri").style.display = "block";
     }
+}
+function inone() {
+    document.getElementById("smsIXato").style.display = "none";
+}
+function emXato(){
+    let emXato = document.getElementById("emXato").value;
+    let emXato1 = document.getElementById("emXato1").value;
+    let emTugri = document.getElementById("emTugri").value;
+    let emTugri1 = document.getElementById("emTugri1").value;
+    let emXatolar = emXato + emXato1;
+    let emTugrilar = emTugri + emTugri1;
+    if(emXatolar != emTugrilar){
+        document.getElementById("smsEmXato").style.display = "block";
+        document.getElementById("emQayta").style.visibility = "visible";
+    }
+    if(emXatolar == emTugrilar){
+        document.getElementById("smsEmTugri").style.display = "block";
+    }
+}
+function emNone() {
+    document.getElementById('smsEmXato').style.display = "none";
 }
 /********************************* Mavzu_6 ******************************************************/
 function markXato(){
