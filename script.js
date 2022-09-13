@@ -358,6 +358,7 @@ function iXato(){
     }
     if(iXatolar == iTugrilar){
         document.getElementById("smsITugri").style.display = "block";
+        document.getElementById("em").style.display = "block";
     }
 }
 function inone() {
@@ -376,12 +377,51 @@ function emXato(){
     }
     if(emXatolar == emTugrilar){
         document.getElementById("smsEmTugri").style.display = "block";
+        document.getElementById("dfn").style.display = "block";
     }
 }
 function emNone() {
     document.getElementById('smsEmXato').style.display = "none";
 }
-/********************************* Mavzu_6 ******************************************************/
+function dfnXato(){
+    let dfnXato = document.getElementById("dfnXato").value;
+    let dfnXato1 = document.getElementById("dfnXato1").value;
+    let dfnTugri = document.getElementById("dfnTugri").value;
+    let dfnTugri1 = document.getElementById("dfnTugri1").value;
+    let dfnXatolar = dfnXato + dfnXato1;
+    let dfnTugrilar = dfnTugri + dfnTugri1;
+    if(dfnXatolar != dfnTugrilar){
+        document.getElementById("smsDfnXato").style.display = "block";
+        document.getElementById("dfnQayta").style.visibility = "visible";
+    }
+    if(dfnXatolar == dfnTugrilar){
+        document.getElementById("smsDfnTugri").style.display = "block";
+        document.getElementById("var").style.display = "block";
+    }
+}
+function dfnNone() {
+    document.getElementById("smsDfnXato").style.display = "none";
+}
+function varXato(){
+    let varXato = document.getElementById("varXato").value;
+    let varXato1 = document.getElementById("varXato1").value;
+    let varTugri = document.getElementById("varTugri").value;
+    let varTugri1 = document.getElementById("varTugri1").value;
+    let varXatolar = varXato + varXato1;
+    let varTugrilar = varTugri + varTugri1;
+    if(varXatolar != varTugrilar){
+        document.getElementById("smsVarXato").style.display = "block";
+        document.getElementById("varQayta").style.visibility = "visible";
+    }
+    if(varXatolar == varTugrilar){
+        document.getElementById("smsVarTugri").style.display = "block";
+        document.getElementById("i6_Vazifa").style.display = "block";
+    }
+}
+function varNone() {
+    document.getElementById("smsVarXato").style.display = "none";
+}
+/********************************* Mavzu_7 ******************************************************/
 function markXato(){
     let markXato = document.getElementById("markXato").value;
     let markXato1 = document.getElementById("markXato1").value;
@@ -395,7 +435,7 @@ function markXato(){
     }
     if(markXatolar == markTugrilar){
         document.getElementById("smsTugri").style.display = "block";
-        document.getElementById("mark6").style.display = "block";
+        document.getElementById("mark7_Vazifa").style.display = "block";
     }
 }
 /********************************* Mavzu_7 ******************************************************/

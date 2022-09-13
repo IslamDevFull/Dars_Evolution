@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="C:\Dars_Evolution\style.css">
-    <link rel="stylesheet" href="C:\Dars_Evolution\font-awesome-4.7.0\css\font-awesome.css">
+    <link rel="stylesheet" href="..\style.css">
+    <link rel="stylesheet" href="..\font-awesome-4.7.0\css\font-awesome.css">
     <title>Evolution</title>
 </head>
 <body>
     <div class="sidebar">
         <h1>HTML</h1><hr>
         <h2>Asosiy HTML</h2>
-        <a href="C:\Dars_Evolution\index.html">Mavzu 1 <img src="g1.png" width="30px"></a>
-        <a href="C:\Dars_Evolution\mavzu_2\p2.html">Mavzu 2 <img src="g1.png" width="30px"></a>
-        <a href="C:\Dars_Evolution\mavzu_3\doc.html">Mavzu 3 <img src="g1.png" width="30px"></a>
-        <a href="C:\Dars_Evolution\mavzu_4\br4.html">Mavzu 4 <img src="g1.png" width="30px"></a><hr>
+        <a href="..\index.html">Mavzu 1 <img src="g1.png" width="30px"></a>
+        <a href="..\mavzu_2\p2.html">Mavzu 2 <img src="g1.png" width="30px"></a>
+        <a href="..\mavzu_3\doc.html">Mavzu 3 <img src="g1.png" width="30px"></a>
+        <a href="..\mavzu_4\br4.html">Mavzu 4 <img src="g1.png" width="30px"></a><hr>
         <h2>Formatlash</h2>
-        <a href="C:\Dars_Evolution\mavzu_5\b5.html">Mavzu 5 <img src="g1.png" width="30px"></a>
+        <a href="..\mavzu_5\b5.html">Mavzu 5 <img src="g1.png" width="30px"></a>
         <a href="#" style="background-color: greenyellow; text-decoration: underline;">Mavzu 6</a>
         <a href="#">Mavzu 7</a>
         <a href="#">Mavzu 8</a>
@@ -29,7 +29,7 @@
         <a href="#">Mavzu 14</a>
     </div>
 <!-- ****************************************************************************************** -->
-    <div class="content" style="height: 2300px;">
+    <div class="content" style="height: 5500px;">
         <div class="progres">
             <iframe src="progress_6.html" frameborder="0" style="width: 90%; height: 16px; margin-top: 10px;"></iframe>
             <i class="fa fa-star" aria-hidden="true"> 5</i>
@@ -58,12 +58,12 @@
         <div class="col_1" style="height: 360px;">
             <div class="cod">
                 <h2 class="center">Kod</h2>
-                <iframe src="i6_Cod.html" frameborder="1" width="500" height="285"></iframe>
+                <iframe src="i6_Cod.html" frameborder="1" width="500" height="330"></iframe>
             </div>
             <div class="ekran">
                 <h2 class="center">Natija</h2>
                 <span class="saytIsm">Saytni ismi</span>
-                <iframe src="i6_Ekran.html" frameborder="1" width="500" height="285"></iframe>
+                <iframe src="i6_Ekran.html" frameborder="1" width="500" height="330"></iframe>
             </div>
         </div>
 <!-- ***************************************************************************************** -->
@@ -85,10 +85,11 @@
             <input id="iTugri1" class="none" type="text"value="</i>">
         </div>
 <!-- ******************************************************************************************* -->
+    <div id="em" class="none opa" style="animation: transform 2s 2.5s forwards;">
         <h1>
             <span class="sin">
                 <code><</code><code>em</code><code>></code> Kodni Vazifasi :
-            </span> Matnni kursiv qilib ko'rsatadi ( chiroyli qilib va odam yozganday ko'rsatadi )
+            </span> Tanlash kerak bo'lgan matnni belgilaydi ( bu xam kursiv qilib ko'rsatadi )
         </h1>
         <h1><span class="sin"><code><</code><code>em</code><code>></code> Kodni Turi :</span> Juftlik</h1>
         <h2 class="sin"><code><</code><code>em</code><code>></code> Kodni Sintaksis :
@@ -97,50 +98,141 @@
             <code><</code><code>/</code><code>em</code><code>></code>
         </h2>
 <!-- ****************************************************************************************** -->
-<br><br><br>
-<div class="col_1" style="height: 360px;">
-    <div class="cod">
-        <h2 class="center">Kod</h2>
-        <iframe src="i6_em_Cod.html" frameborder="1" width="500" height="275"></iframe>
+        <br><br><br>
+        <div class="col_1" style="height: 460px;">
+            <div class="cod">
+                <h2 class="center">Kod</h2>
+                <iframe src="i6_em_Cod.html" frameborder="1" width="500" height="390"></iframe>
+            </div>
+            <div class="ekran">
+                <h2 class="center">Natija</h2>
+                <span class="saytIsm">Saytni ismi</span>
+                <iframe src="i6_em_Ekran.html" frameborder="1" width="500" height="390"></iframe>
+            </div>
+        </div>
+<!-- ***************************************************************************************** -->
+        <h1 class="vz"><span  class="sin">Vazifa :</span> <span class="blue">(em)</span> kodni kiriting</h1>
+        <div id="smsEmXato" class="smsXato" style="width: 440px;">
+            <h1>Xato</h1>
+        </div>
+        <div id="smsEmTugri" class="smsTugri" style="width: 440px;">
+            <h1>To'g'ri</h1>
+        </div>
+<!-- ***************************************************************************************** -->
+        <div class="mashq">
+            <input id="emXato" type="text" style="width: 72px;" maxlength="4">
+            <input type="text" style="width: 105px; color: black;">
+            <input id="emXato1" type="text" style="width: 80px;" maxlength="5">
+            <button class="tekshir" onclick="emXato()">Tekshirish</button>
+            <button id="emQayta" class="qayta" onclick="emNone()">Qayta yozish</button>
+            <input id="emTugri" class="none" type="text" value="<em>">
+            <input id="emTugri1" class="none" type="text"value="</em>">
+        </div>
     </div>
-    <div class="ekran">
-        <h2 class="center">Natija</h2>
-        <span class="saytIsm">Saytni ismi</span>
-        <iframe src="i6_em_Ekran.html" frameborder="1" width="500" height="275"></iframe>
+<!-- ***************************************************************************************** -->
+<div id="dfn" class="none opa" style="animation: transform 2s 2.5s forwards;">
+    <h1>
+        <span class="sin">
+            <code><</code><code>dfn</code><code>></code> Kodni Vazifasi :
+        </span> Matnda yangi atama yoki so'z qo'shilganda qo'llaniladi (Odatiy u kursiv bilan yoziladi).
+    </h1>
+    <h1><span class="sin"><code><</code><code>dfn</code><code>></code> Kodni Turi :</span> Juftlik</h1>
+    <h2 class="sin"><code><</code><code>dfn</code><code>></code> Kodni Sintaksis :
+        <code><</code><code>dfn</code><code>></code>
+        <span style="font-size: 27px; color: black;">Biror bir matn</span>
+        <code><</code><code>/</code><code>dfn</code><code>></code>
+    </h2>
+<!-- ****************************************************************************************** -->
+    <br><br><br>
+    <div class="col_1" style="height: 510px;">
+        <div class="cod">
+            <h2 class="center">Kod</h2>
+            <iframe src="i6_dfn_Cod.html" frameborder="1" width="500" height="440"></iframe>
+        </div>
+        <div class="ekran">
+            <h2 class="center">Natija</h2>
+            <span class="saytIsm">Saytni ismi</span>
+            <iframe src="i6_dfn_Ekran.html" frameborder="1" width="500" height="440"></iframe>
+        </div>
+    </div>
+<!-- ***************************************************************************************** -->
+    <h1 class="vz"><span  class="sin">Vazifa :</span> <span class="blue">(dfn)</span> kodni kiriting</h1>
+    <div id="smsDfnXato" class="smsXato" style="width: 465px;">
+        <h1>Xato</h1>
+    </div>
+    <div id="smsDfnTugri" class="smsTugri" style="width: 465px;">
+        <h1>To'g'ri</h1>
+    </div>
+<!-- ***************************************************************************************** -->
+    <div class="mashq">
+        <input id="dfnXato" type="text" style="width: 74px;" maxlength="5">
+        <input type="text" style="width: 125px; color: black;">
+        <input id="dfnXato1" type="text" style="width: 82px;" maxlength="6">
+        <button class="tekshir" onclick="dfnXato()">Tekshirish</button>
+        <button id="dfnQayta" class="qayta" onclick="dfnNone()">Qayta yozish</button>
+        <input id="dfnTugri" class="none" type="text" value="<dfn>">
+        <input id="dfnTugri1" class="none" type="text"value="</dfn>">
     </div>
 </div>
 <!-- ***************************************************************************************** -->
-<h1 class="vz"><span  class="sin">Vazifa :</span> <span class="blue">(em)</span> kodni kiriting</h1>
-<div id="smsEmXato" class="smsXato" style="width: 360px;">
-    <h1>Xato</h1>
-</div>
-<div id="smsEmTugri" class="smsTugri" style="width: 360px;">
-    <h1>To'g'ri</h1>
-</div>
+    <div id="var" class="none opa" style="animation: transform 2s 2.5s forwards;">
+        <h1>
+            <span class="sin">
+                <code><</code><code>var</code><code>></code> Kodni Vazifasi :
+            </span> Matematik o'zgaruvchan miqdorlarini shu kod orqali yozsayiz bo'ladi (U xam kursiv bilan yoziladi).
+        </h1>
+        <h1><span class="sin"><code><</code><code>var</code><code>></code> Kodni Turi :</span> Juftlik</h1>
+        <h2 class="sin"><code><</code><code>var</code><code>></code> Kodni Sintaksis :
+            <code><</code><code>var</code><code>></code>
+            <span style="font-size: 27px; color: black;">Biror bir matn</span>
+            <code><</code><code>/</code><code>var</code><code>></code>
+        </h2>
+<!-- ****************************************************************************************** -->
+        <br><br><br>
+        <div class="col_1" style="height: 580px;">
+            <div class="cod">
+                <h2 class="center">Kod</h2>
+                <iframe src="i6_var_Cod.html" frameborder="1" width="500" height="500"></iframe>
+            </div>
+            <div class="ekran">
+                <h2 class="center">Natija</h2>
+                <span class="saytIsm">Saytni ismi</span>
+                <iframe src="i6_var_Ekran.html" frameborder="1" width="500" height="500"></iframe>
+            </div>
+        </div>
 <!-- ***************************************************************************************** -->
-<div class="mashq">
-    <input id="emXato" type="text" style="width: 72px;" maxlength="4">
-    <input type="text" style="width: 105px; color: black;">
-    <input id="emXato1" type="text" style="width: 80px;" maxlength="5">
-    <button class="tekshir" onclick="emXato()">Tekshirish</button>
-    <button id="emQayta" class="qayta" onclick="emNone()">Qayta yozish</button>
-    <input id="emTugri" class="none" type="text" value="<i>">
-    <input id="emTugri1" class="none" type="text"value="</i>">
-</div>
+        <h1 class="vz"><span  class="sin">Vazifa :</span> <span class="blue">(var)</span> kodni kiriting</h1>
+        <div id="smsVarXato" class="smsXato" style="width: 465px;">
+            <h1>Xato</h1>
+        </div>
+        <div id="smsVarTugri" class="smsTugri" style="width: 465px;">
+            <h1>To'g'ri</h1>
+        </div>
 <!-- ***************************************************************************************** -->
-        <div id="i5" class="col_2  opa" style="animation: transform 2s 2.5s forwards;" >
+        <div class="mashq">
+            <input id="varXato" type="text" style="width: 74px;" maxlength="5">
+            <input type="text" style="width: 125px; color: black;">
+            <input id="varXato1" type="text" style="width: 82px;" maxlength="6">
+            <button class="tekshir" onclick="varXato()">Tekshirish</button>
+            <button id="varQayta" class="qayta" onclick="varNone()">Qayta yozish</button>
+            <input id="varTugri" class="none" type="text" value="<var>">
+            <input id="varTugri1" class="none" type="text"value="</var>">
+        </div>
+    </div>
+<!-- ***************************************************************************************** -->
+        <div id="i6_Vazifa" class="col_2 none opa" style="animation: transform 2s 2.5s forwards;" >
             <h1><span class="sin">Vazifa :</span> Qaysi Cod Yozilsa Ushbu Natija Aks etadi</h1>
             <div class="cod">
                 <h2 class="sin center">O'zingizni redaktoringizga yozing</h2>
-                <iframe src="yoq.html" frameborder="1" width="500" height="200"></iframe>
+                <iframe src="..\none.html" frameborder="1" width="500" height="200"></iframe>
             </div>
             <div class="ekran bottom">
                 <h2 class="sin center">Natija</h2>
-                <iframe src="i5_1_ekran.html" frameborder="0" width="500" height="200"></iframe>
+                <iframe src="i6_Vazifa.html" frameborder="0" width="500" height="200"></iframe>
             </div>
-            <a class="davom" href="mark6.html">Davom etish</a>
+            <a class="davom" href="..\mavzu_7/mark7.html">Davom etish</a>
         </div>
     </div>
-    <script src="C:\Dars_Evolution\script.js"></script>
+    <script src="..\script.js"></script>
 </body>
 </html>
