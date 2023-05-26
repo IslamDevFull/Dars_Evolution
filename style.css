@@ -2,12 +2,12 @@
     box-sizing: border-box;
     padding: 0;
 }
-/* ChapMenyu */
+/************************************************************ ChapMenyu ***************************************************/
 .sidebar{
     height: 2000px;
     width: 10%;
     float: left;
-    background-color: pink;
+    background-color: #b9b9b9;
     text-align: center;
     position: fixed;
 }
@@ -16,11 +16,12 @@
     margin-top: 20px;
     font-size: 25px;
     text-decoration: none;
+    color: white;
 }
 .sidebar a:hover{
-    text-decoration: underline solid;
+    text-decoration: underline solid black;
 }
-/*  projress  */
+/*********************************************************  projress  ************************************************/
 .progres{
     margin-left: 50px;
 }
@@ -28,8 +29,8 @@
     padding: 20px;
     width: 90%;
 }
-.fa{
-    animation: anime 2s 3 linear;
+.fa-star{
+    animation: anime 4s linear;
     color: yellow;  
     margin-left: 10px;
     position: absolute;
@@ -37,22 +38,28 @@
     top: 20px;
     transform: scale(3,3);
     text-shadow: 0.1px 0.1px 3px black, -0.1px -0.1px 3px black;
+    z-index: 1;
 }
 @keyframes anime{
-    from{
+    0%{
+        top: 500px;
+        transform: scale(100);
+        text-shadow: 1px 1px 1px wheat, -1px -1px 1px wheat;
+    }
+    50%{
         transform: scale(3,3);
         text-shadow: 0px 0px 0px red, -0px -0px 0px red;
     }
-    to{
+    100%{
         transform: scale(3.5,3.5);
         text-shadow: 2px 2px 5px red, -2px -2px 5px red;
     }
 }
-/*  Dars content  */
+/************************************************************  Dars content  *********************************************************/
 .content{
     width: 100%;
     float: left;
-    background-color: powderblue;
+    background-color: #e8e8e8 ;
     padding-left: 200px;
     padding-right: 10px;
 }
@@ -70,7 +77,6 @@
     width: 100%;  
     height: 300px;
     margin-bottom: 150px;
-    border: 2px solid red;
 }
 .col_2{
     width: 100%; 
@@ -78,21 +84,17 @@
     margin-top: 100px;
     clear: both;
 }
-h2 code,.h1{
-    color: blue;
+code,.h1{
+    color: rgb(53,140,214);
 }
 .cod{
-    width: 500px;
     float: left;
-    border: 2px solid red;
 }
 .ekran{
-    width: 500px;
     float: left;
-    margin-left: 200px;
-    border: 2px solid red;
+    margin-left: 150px;
 }
-/*  Xato yoki to'g'ri  */
+/*******************************************************  Xato yoki to'g'ri  ****************************************************/
 .smsXato,.smsTugri{
     background-color: darkred;
     width: 25%;
@@ -102,6 +104,7 @@ h2 code,.h1{
     animation: xato 1s 3 linear;
     position: absolute;
     display: none;
+    text-align: center;
 }
 .smsTugri{
     background-color: greenyellow;
@@ -115,23 +118,35 @@ h2 code,.h1{
         box-shadow: 0px 0px 5px 5px red;
     }
 }
-/*  mashq  */
+.smsTugri{
+    animation: tugri 1s 3 linear;
+}
+@keyframes tugri{
+    from{
+    }
+
+    to{
+        box-shadow: 0px 0px 5px 5px green;
+    }
+}
+/*************************************************************  mashq  ******************************************************************/
 .mashq{
     padding: 30px;
     margin-bottom: 100px;
 }
 input{
-    color: rgb(60,130,200);
+    color: rgb(53,140,214);
     font-size: 25px;
     font-weight: bold;
+    padding: 4px 0 ;
 }
 #tugri,#tugri1,#tugri2{
     display: none;
 }
-/*  mashqni tekshirish knopkasi */
+/************************************************************  mashqni tekshirish knopkasi *************************************************/
 .tekshir,.qayta{
     background-image: url(3HeL.gif);
-    background-size: 400%;
+    background-size: 350%;
     padding: 8px;
     margin-left: 50px;
     color: white;
@@ -139,16 +154,10 @@ input{
 }
 .qayta{
     margin-left: 100px;
-    border: 5px solid blue;
     visibility: hidden;
 }
 .tekshir:hover,.qayta:hover{
     color: green;
-}
-#qadam_2{
-    display: none;
-    animation: transform 2s 2.5s forwards;
-    opacity: 0;
 }
 .card{
     width: 49%;
@@ -163,11 +172,13 @@ input{
     padding: 10px 0;
     display: none;
     animation: transform 1s linear forwards;
+    cursor: zoom-in;
 }
+/*********************************************************************************************************************************************************************************/ 
 .sin{
     font-size: 30px;
     margin-top: 20px;
-    color: brown;
+    color: yellowgreen;
 }
 .red{
     color: red;
@@ -179,6 +190,17 @@ input{
 }
 .blue{
     color: rgb(60,130,200);
+    font-weight: bold;
+}
+.black{
+    color: black;
+    font-weight: bold;
+}
+.bottom{
+    margin-bottom: 200px;
+}
+.border{
+    border: 2px solid red;
 }
 .none{
     display: none;
@@ -186,12 +208,30 @@ input{
 .opa{
     opacity: 0;
 }
-.bottom{
-    margin-bottom: 200px;
-}
 .center{
     text-align: center;
 }
+.texDecor{
+    text-decoration: none;
+    color: white;
+}
+.trans{
+    animation: transform 2s 2.5s forwards;
+}
+.width{
+    width: 100%;
+}
+.left_1{
+    margin-left: 250px;
+}
+.saytIsm{
+    position: absolute; 
+    margin-top: -33px; 
+    background-color: white; 
+    margin-left: 1px; padding: 7px; 
+    border-radius: 0 10px 0 0;
+}
+/*********************************************************************************************************************************************************************************/ 
 @keyframes transform{
     from{
         transform: scale(0);
@@ -208,6 +248,7 @@ input{
     font: bold;
     font-size: 20px;
     padding: 5px;
+    margin: auto;
 }
 .BTN:hover{
     background-color: black;
@@ -215,7 +256,7 @@ input{
 .BTN:active{
     background-color: #444;
 }
-/* keyingi mavzuga o'tish knopkasi  */
+/*************************************************** keyingi mavzuga o'tish knopkasi  ************************************/
 .davom{
     margin-top: 100px;
     margin-left: 1000px;
@@ -231,4 +272,17 @@ input{
 .davom:hover{
     background-color: rgb(250, 152, 168);
 }
-
+/* **************************************************************************************************************** */
+.images{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 500px;
+    left: 0;
+    z-index: 1;
+    display: none;
+    cursor: zoom-out;
+    animation: transform 1s;
+}

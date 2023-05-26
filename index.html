@@ -6,167 +6,202 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css">
-    <title>Dasturlash</title>
+    <title>Evolution</title>
 </head>
 <body>
     <div class="sidebar">
-        <h1>HTML</h1>
-        <a style="background-color: greenyellow; text-decoration: underline;" href="">Mavzu 1</a>
-        <a href="p2.html">Mavzu 2</a>
-        <a href="b3.html">Mavzu 3</a>
-        <a href="br4.html">Mavzu 4</a>
-        <a href="i5.html">Mavzu 5</a>
-        <a href="mark6.html">Mavzu 6</a>
-        <a href="">Mavzu 7</a>
-        <a href="">Mavzu 8</a>
-        <a href="">Mavzu 9</a>
-        <a href="">Mavzu 10</a>
+        <h1>HTML</h1><hr>
+        <h2>Asosiy HTML</h2>
+        <a style="background-color: greenyellow; text-decoration: underline;" href="#">Mavzu 1</a>
+        <a href="#">Mavzu 2</a>
+        <a href="#">Mavzu 3</a>
+        <a href="#">Mavzu 4</a><hr>
+        <h2>Formatlash</h2>
+        <a href="#">Mavzu 5</a>
+        <a href="#">Mavzu 6</a>
+        <a href="#">Mavzu 7</a>
+        <a href="#">Mavzu 8</a>
+        <a href="#">Mavzu 9</a>
+        <a href="#">Mavzu 10</a><hr>
+        <a href="#">Mavzu 11</a><hr>
+        <a href="#">Mavzu 12</a><hr>
+        <a href="#">Mavzu 13</a><hr>
+        <a href="#">Mavzu 14</a>
     </div>
-    <div class="content" style="height: 5500px;">
+<!-- ******************************************************************************************************************************************* -->
+    <div id="bodi" class="content" style="height: 5500px;">
         <div class="progres">
-            <progress max="10" value="0"></progress>
-            <i class="fa fa-star" aria-hidden="true"> 0</i>
+            <iframe src="mavzu_1\progress_1.html" frameborder="0" style="width: 90%; height: 16px; margin-top: 10px;"></iframe>
+            <i class="fa fa-star" aria-hidden="true" style="animation: ani;"> 0</i>
         </div>
-        <h1 class="h1"><span style="font-size: 50px;" class="sin">Mavzu : </span>
-            <code><</code>
-            <code>h1</code>
-            <code>></code>
+<!-- ********************************************************************************************************************************************* -->
+        <h1 class="h1"><span style="font-size: 50px;" class="sin">Mavzu 1 : </span>
+            <code><</code><code>h1</code><code>></code>
+            <span class="black">Kodni O'rganamiz</span>
         </h1>
-        <h1><span class="sin">Vazifasi :</span> Sarlavha uchun ishalatiladigan kodlar</h1>
-        <h1><span class="sin">Turi :</span> Juftlik</h1>
-        <h2 class="sin">Sintaksis :
-            <code><</code>
-            <code>h1</code>
-            <code>></code>
+<!-- ******************************************************************************************************************************************** -->
+        <h1><span class="sin"><code><</code><code>h1</code><code>></code> kodni Vazifasi :</span> Sarlavha uchun ishalatiladigan kod</h1>
+        <h1><span class="sin"><code><</code><code>h1</code><code>></code> kodni Turi :</span> Juftlik</h1>
+        <h2 class="sin"><code><</code><code>h1</code><code>></code> kodni Sintaksisi :
+            <code><</code><code>h1</code><code>></code>
             <span style="font-size: 27px; color: black;">Biror bir matn</span>
-            <code><</code>
-            <code>/</code>
-            <code>h1</code>
-            <code>></code>
+            <code><</code><code>/</code><code>h1</code><code>></code>
         </h2>
         <br><br><br><br>
+<!-- ******************************************************************************************************************************************* -->
         <div class="col_1">
             <div class="cod">
                 <h2 class="center">Kod</h2>
-                <iframe src="h1_Cod.html" frameborder="1" width="500" height="200"></iframe>
+                <iframe src="mavzu_1\h1_Cod.html" frameborder="1" width="500" height="200"></iframe>
             </div>
             <div class="ekran">
                 <h2 class="center">Natija</h2>
-                <iframe src="h1_Ekran.html" frameborder="0" width="500" height="200"></iframe>
+                <iframe src="mavzu_1\h1_Ekran.html" frameborder="1" width="500" height="200"></iframe>
             </div>
         </div>
-        <h1 class="vz"><span  class="sin">Vazifa :</span> Sarlavha kodi bilan <span class="red">Sarlavha 1</span> degan so'zni kiriting</h1>
-        <div id="smsXato" class="smsXato">
+<!-- ******************************************************************************************************************************************* -->
+        <h1 class="vz"><span  class="sin">Vazifa :</span> Sarlavha kodini kiriting</h1>
+        <div id="smsXato" class="smsXato" style="width: 450px;">
             <h1>Xato</h1>
         </div>
-        <div id="smsTugri" class="smsTugri">
+        <div id="smsTugri" class="smsTugri" style="width: 450px;">
             <h1>To'g'ri</h1>
         </div>
+<!-- ******************************************************************************************************************************************** -->
         <div class="mashq">
             <input id="xato" type="text" style="width: 65px;" maxlength="4">
-            <input id="xato1" type="text" style="width: 129px; color: black;" maxlength="10">
-            <input id="xato2" type="text" style="width: 72px;" maxlength="5">
+            <input type="text" style="width: 129px; color: black;">
+            <input id="xato1" type="text" style="width: 72px;" maxlength="5">
             <button class="tekshir" onclick="xato()">Tekshirish</button>
-            <button id="qayta" class="qayta" onclick="none()">Qayta yozish</button>
+            <button id="qayta" class="qayta" onclick="none()" style="margin-left: 50px;">Qayta yozish</button>
             <input id="tugri" type="text" value="<h1>" style="width: 65px; margin-left: 60px;" maxlength="4">
-            <input id="tugri1" type="text"value="Sarlavha 1" style="width: 129px; color: black;" maxlength="10">
-            <input id="tugri2" type="text"value="</h1>" style="width: 72px;" maxlength="5">
+            <input id="tugri1" type="text"value="</h1>" style="width: 72px;" maxlength="5">
         </div>
-        <div id="qadam_2">
+<!-- ******************************************************************************************************************************************** -->
+        <div id="qadam_2" class="opa trans none">
             <div class="center" >
                 <h1 class="center">
-                    <span style="font-size: 40px;" class="sin">Mavzu : </span>
-                    Visual Studio Code (profisional dasturchilarni kod yozish joyi)
+                    <span style="font-size: 40px;" class="sin"> Visual Studio Code</span>
+                    (profesional dasturchilarning kod yozish joyi)
                 </h1>
-                <img class="center" src="vscode-2020-eyecatch-1200x630-1.png" alt="redaktor">
+                <img class="center" src="mavzu_1\vscode-2020-eyecatch-1200x630-1.png" alt="redaktor">
                 <h1 class="center">
-                    <span style="font-size: 40px;" class="sin">Qadam ma qadam o'rganamiz : </span>
+                    <span style="font-size: 40px;" class="sin">Visual Studio Code ni Qadamma-qadam o'rganamiz : </span>
                 </h1>
+<!-- ********************************************************************************************************************************************* -->
                 <div class="card">
-                    <button class="BTN" onclick="btn()">Qadam 1</button>
-                    <div class="disNone" id="dis">
+                    <button class="BTN" onclick="btn()">1 - Qadam</button>
+                    <div class="disNone" id="dis">  
                         <h1>
-                            <span style="font-size: 30px;" class="sin">Qadam 1 : </span>
-                            Redaktorni oching
+                            <span style="font-size: 30px;" class="sin">1 - Qadam : </span>
+                                Redaktorni oching
                         </h1>
-                        <img src="vs.png" style="width: 100%;" alt="qadam 1">
+                        <img onclick="imgOn()" src="mavzu_1\vs.png" class="width" alt="qadam 1">
+                    </div>
+                    <div id="images" class="images" onclick="imgOff()" style="top: 700px;">
+                        <img src="mavzu_1\vs.png" class="width" alt="qadam 1">
                     </div>
                 </div>
+<!-- ******************************************************************************************************************************************** -->
                 <div class="card">
-                    <button class="BTN none" id="btn1" onclick="btn1()">Qadam 2</button>
+                    <button class="BTN none" id="btn1" onclick="btn1()">2 - Qadam</button>
                     <div class="disNone" id="dis1">
                         <h1>
-                            <span style="font-size: 30px;" class="sin">Qadam 2 : </span>
+                            <span style="font-size: 30px;" class="sin">2 - Qadam : </span>
                             <span class="yellow">Файл</span> degan tugmani bosing
                         </h1>
-                        <img src="vs1.png" style="width: 100%;" alt="qadam 2">
+                        <img onclick="imgOn_1()" src="mavzu_1\vs1.png" class="width" alt="qadam 2">
+                    </div>
+                    <div id="images_1" class="images" onclick="imgOff()" style="top: 700px;">
+                        <img src="mavzu_1\vs1.png" class="width" alt="qadam 1">
                     </div>
                 </div>
+<!-- ******************************************************************************************************************************************** -->
                 <div class="card">
-                    <button class="BTN none" id="btn2" onclick="btn2()">Qadam 3</button>
+                    <button class="BTN none" id="btn2" onclick="btn2()">3 - Qadam</button>
                     <div class="disNone" id="dis2">
                         <h1>
-                            <span style="font-size: 30px;" class="sin">Qadam 3 : </span>
+                            <span style="font-size: 30px;" class="sin">3 - Qadam : </span>
                             <span class="yellow">Открыть парку</span> degan tugmani bosing
                         </h1>
-                        <img src="vs2.png" style="width: 100%;" alt="qadam 3">
+                        <img onclick="imgOn_2()" src="mavzu_1\vs2.png" class="width" alt="qadam 3">
+                    </div>
+                    <div id="images_2" class="images" onclick="imgOff()" style="top: 1200px;">
+                        <img src="mavzu_1\vs2.png" class="width">
                     </div>
                 </div>
+<!-- ******************************************************************************************************************************************** -->
                 <div class="card">
-                    <button class="BTN none" id="btn3" onclick="btn3()">Qadam 4</button>
+                    <button class="BTN none" id="btn3" onclick="btn3()">4 - Qadam</button>
                     <div class="disNone" id="dis3">
                         <h1>
-                            <span style="font-size: 30px;" class="sin">Qadam 4 : </span>
+                            <span style="font-size: 30px;" class="sin">4 - Qadam : </span>
                             <span class="yellow">Рабочий стол</span> degan joyni bosing
                         </h1>
-                        <img src="vs3.png" style="width: 100%;" alt="qadam 4">
+                        <img onclick="imgOn_3()" src="mavzu_1\vs3.png" class="width" alt="qadam 4">
+                    </div>
+                    <div id="images_3" class="images" onclick="imgOff()" style="top: 1200px;">
+                        <img src="mavzu_1\vs3.png" class="width">
                     </div>
                 </div>
+<!-- ********************************************************************************************************************************************* -->
                 <div class="card">
-                    <button class="BTN none" id="btn4" onclick="btn4()">Qadam 5</button>
+                    <button class="BTN none" id="btn4" onclick="btn4()">5 - Qadam</button>
                     <div class="disNone" id="dis4">
                         <h1>
-                            <span style="font-size: 30px;" class="sin">Qadam 5 : </span>
-                            O'zingiz ismingiz yozilgan papkani tanlang va <span class="yellow">Выбор папки</span> degan tugmani bosing
+                            <span style="font-size: 30px;" class="sin">5 - Qadam : </span>
+                            O'zingizni ismingiz yozilgan papkani tanlang va <span class="yellow">Выбор папки</span> degan tugmani bosing
                         </h1>
-                        <img src="vs4.png" style="width: 100%;" alt="qadam 5">
+                        <img onclick="imgOn_4()" src="mavzu_1\vs4.png" class="width" alt="qadam 5">
+                    </div>
+                    <div id="images_4" class="images" onclick="imgOff()" style="top: 1800px;">
+                        <img src="mavzu_1\vs4.png" class="width">
                     </div>
                 </div>
+<!-- ******************************************************************************************************************************************** -->
                 <div class="card">
-                    <button class="BTN none" id="btn5" onclick="btn5()">Qadam 6</button>
+                    <button class="BTN none" id="btn5" onclick="btn5()">6 - Qadam</button>
                     <div class="disNone" id="dis5">
                         <h1>
-                            <span style="font-size: 30px;" class="sin">Qadam 6 : </span>
+                            <span style="font-size: 30px;" class="sin">6 - Qadam : </span>
                             <span class="yellow">Создать файл</span> degan tugmani bosing
                         </h1>
-                        <img src="vs5.png" style="width: 100%;" alt="qadam 6">
+                        <img onclick="imgOn_5()" src="mavzu_1\vs5.png" class="width" alt="qadam 6">
+                    </div>
+                    <div id="images_5" class="images" onclick="imgOff()" style="top: 1800px;">
+                        <img src="mavzu_1\vs5.png" class="width">
                     </div>
                 </div>
+<!-- ******************************************************************************************************************************************** -->
                 <div class="card" style="margin-left: 25%; margin-bottom: 100px;">
-                    <button class="BTN none" id="btn6" onclick="btn6()">Qadam 7</button>
+                    <button class="BTN none" id="btn6" style="margin: auto;" onclick="btn6()">7 - Qadam</button>
                     <div class="disNone" id="dis6">
                         <h1>
-                            <span style="font-size: 30px;" class="sin">Qadam 7 : </span>
-                            <span class="yellow">index.html</span> degan so'zni kiriting va inter tugmasini bosing
+                            <span style="font-size: 30px;" class="sin">7 - Qadam : </span>
+                            <span class="yellow">index.html</span> degan so'zni kiriting va <span class="yellow">inter</span> tugmasini bosing
                         </h1>
-                        <img src="vs6.png" style="width: 100%;" alt="qadam 7">
+                        <img onclick="imgOn_6()" src="mavzu_1\vs6.png" class="width" alt="qadam 7">
+                    </div>
+                    <div id="images_6" class="images" onclick="imgOff()" style="top: 2500px;">
+                        <img src="mavzu_1\vs6.png" class="width">
                     </div>
                 </div>
+<!-- ******************************************************************************************************************************************** -->
             </div>
-            <div class="col_2">
-                <button class="BTN none" id="btn7" onclick="btn7()">Oxirgi qadam</button>
+            <div class="col_2" style="height: 440px;">
+                <button class="BTN none" id="btn7" onclick="btn7()">So'nggi qadam :</button>
                 <div id="dis7" class="none" style="animation: transform 1s;">
                     <div class="cod">
                         <h2 style="text-align: center;" class="sin">Redaktorga Ushbu Kodni Yozing</h2>
-                        <iframe src="h6_Cod.html" frameborder="1" width="500" height="300"></iframe>
+                        <iframe src="mavzu_1\h6_Cod.html" frameborder="1" width="500" height="300"></iframe>
                     </div>
                     <div class="ekran">
-                        <h2 class="sin center">Natija shunday bo'lishi kerak</h2>
-                        <iframe src="h6_Ekran.html" frameborder="0" width="500" height="300"></iframe>
+                        <h2 class="sin center">Natija shunday bo'lishi shart</h2>
+                        <iframe src="mavzu_1\h6_Ekran.html" frameborder="1" width="500" height="300"></iframe>
                     </div>
                 </div>
             </div>
-            <a class="davom none" id="davom" href="p2.html">Davom etish</a>
+            <a class="davom none" id="davom" href="mavzu_2\p2.html">Davom etish</a>
         </div>
     </div>
     <script src="script.js"></script>
